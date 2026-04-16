@@ -1,12 +1,28 @@
-# Kyma
+<div align="center">
+  <img src="https://kymaapi.com/logo.png" alt="Kyma" width="92" />
 
-Kyma is the product stack for model access, coding agents, and local multi-agent workspaces.
+  <h1>Kyma</h1>
 
-## What lives here
+  <p><strong>One API, one coding agent, one local workspace.</strong></p>
 
-- **Kyma API** — hosted model access, account, balance, and docs
-- **Kyma Agent** — the `kyma` CLI for coding and terminal workflows
-- **Kyma Ter** — the local browser workspace for parallel agent and shell sessions
+  <p>
+    Hosted model access, the <code>kyma</code> CLI, and the <code>kyma-ter</code> workspace built to work together.
+  </p>
+
+  <p>
+    <a href="https://kymaapi.com">Website</a>
+    ·
+    <a href="https://docs.kymaapi.com">Docs</a>
+    ·
+    <a href="https://kymaapi.com/ter">Kyma Ter</a>
+    ·
+    <a href="https://docs.kymaapi.com/guides/windows-setup">Windows Setup</a>
+    ·
+    <a href="https://github.com/kyma-api/kyma-ter-releases/releases">Releases</a>
+  </p>
+</div>
+
+---
 
 ## Install
 
@@ -14,28 +30,31 @@ Kyma is the product stack for model access, coding agents, and local multi-agent
 npm install -g @kyma-api/agent
 ```
 
-This gives you:
+This installs:
 
 - `kyma`
 - `kyma-ter`
 
-## Links
+## Products
 
-- Website: [kymaapi.com](https://kymaapi.com)
-- Docs: [docs.kymaapi.com](https://docs.kymaapi.com)
-- Kyma Agent guide: [docs.kymaapi.com/guides/agent](https://docs.kymaapi.com/guides/agent)
-- Windows setup: [docs.kymaapi.com/guides/windows-setup](https://docs.kymaapi.com/guides/windows-setup)
-- Kyma Ter: [kymaapi.com/ter](https://kymaapi.com/ter)
-- Releases: [kyma-api/kyma-ter-releases](https://github.com/kyma-api/kyma-ter-releases/releases)
+| Product | What it does |
+| --- | --- |
+| **Kyma API** | Hosted model gateway, account, balance, and docs. |
+| **Kyma Agent** | The `kyma` coding CLI for direct terminal workflows. |
+| **Kyma Ter** | The local browser workspace for parallel agent and shell sessions. |
 
 ## Repositories
 
-- `kyma-api` — website, docs, and the `@kyma-api/agent` package
-- `kyma-ter` — the local multi-agent terminal workspace
-- `kyma-ter-releases` — public release assets for `kyma-ter`
+| Repository | What it contains |
+| --- | --- |
+| [`kyma-api`](https://github.com/kyma-api/kyma-api) | Website, docs, and the `@kyma-api/agent` package. |
+| [`kyma-ter`](https://github.com/kyma-api/kyma-ter) | The local multi-agent terminal workspace runtime. |
+| [`kyma-ter-releases`](https://github.com/kyma-api/kyma-ter-releases) | Public release assets for `kyma-ter` binaries. |
 
-## Platform status
+## Platform
 
-- macOS: supported
-- Linux: supported
-- Windows: supported for `kyma`, beta for `kyma-ter`, best with WSL2 for shell panes
+| Platform | Status |
+| --- | --- |
+| macOS | Supported |
+| Linux | Supported |
+| Windows | `kyma` supported, `kyma-ter` beta, best with WSL2 for shell panes |
